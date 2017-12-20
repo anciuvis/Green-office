@@ -1,7 +1,55 @@
 /*normalize*/
-@import url("css/normalize.css");
+@import url("normalize.css");
 
 /*fontawesome*/
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*style*/
+body{
+  margin: 0;
+  background-image: url("../img/fond.png");
+  background-repeat: repeat;
+  font-size: 16px;
+}
+
+.container{
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #B8CB21;
+}
+
+nav a {
+  padding: 20px 50px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+main{
+  background-color: white;
+  padding: 30px 40px;
+}
+
+h2{
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #B8CB21;
+}
+
+h3{
+  color: #B8CB21;
+}
+
+footer{
+  text-align: center;
+  padding: 10px;
+}
